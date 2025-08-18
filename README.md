@@ -16,4 +16,4 @@ There's a confirmation page, and a data table that displays all the employees av
 
 I've also setup a Rest Controller that is mostly used for Postman testing.
 
-If you would like to view the contents of the H2 DBMS table, you can login through http:127.0.0.1:8080/h2-console, click Connect, and you should see an EMPLOYEE table you can run a SQL query on to show all rows.
+If you would like to view the contents of the H2 DBMS table, you can login through http://127.0.0.1:8080/h2-console, click Connect, and you should see an EMPLOYEE table you can run a SQL query on to show all rows.
