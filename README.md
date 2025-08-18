@@ -4,9 +4,14 @@ This is an exercise that uses Spring Boot backend and Thymeleaf front end to ren
 
 To run the project, you can clone the repo and run locally in VSCode (if you have Spring Boot Extension Pack).
 
-You could also run the JAR file included in this repo too, inside the target folder. You can run the JAR file like so:
-java -jar target/simpledataentry-0.0.1-SNAPSHOT.jar and view the app on http:localhost:8080
+You could also run the JAR file included in this repo too, inside the target folder. 
 
+You can run the JAR file like so from the terminal:
+java -jar target/simpledataentry-0.0.1-SNAPSHOT.jar 
+
+Then, view the app on http://localhost:8080
+
+-----------------------
 There's a confirmation page, and a data table that displays all the employees available in the H2 DBMS (in-memory) Employees table. Initially I used MongoDB but decided on a light weight DB that works easily and has quick setup.
 
 I've also setup a Rest Controller that is mostly used for Postman testing.
